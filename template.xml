@@ -2,8 +2,8 @@
 			<mac>[MACADDRESS_HERE]</mac>
 			<cid>[HOSTNAME_HERE]</cid>
 			<ipaddr>[IPADDRESS_HERE]</ipaddr>
-			<hostname></hostname>
-			<descr></descr>
+			<hostname>[HOSTNAME_HERE]</hostname>
+			<descr><![CDATA[[HOSTNAME_HERE]]]></descr>
 			<filename></filename>
 			<rootpath></rootpath>
 			<defaultleasetime></defaultleasetime>
@@ -14,7 +14,15 @@
 			<ddnsdomain></ddnsdomain>
 			<ddnsdomainprimary></ddnsdomainprimary>
 			<ddnsdomainkeyname></ddnsdomainkeyname>
+			<ddnsdomainkeyalgorithm>hmac-md5</ddnsdomainkeyalgorithm>
 			<ddnsdomainkey></ddnsdomainkey>
 			<tftp></tftp>
 			<ldap></ldap>
+			<nextserver></nextserver>
+			<filename32></filename32>
+			<filename64></filename64>
+			<filename32arm></filename32arm>
+			<filename64arm></filename64arm>
+			<uefihttpboot></uefihttpboot>
+			<numberoptions></numberoptions>
 		</staticmap>

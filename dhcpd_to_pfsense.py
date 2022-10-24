@@ -27,7 +27,7 @@ def main():
                 # Commented line, ignore
                 continue
                 
-            f_out.write(f"{template.replace('[MACADDRESS_HERE]',curr_mac).replace('[IPADDRESS_HERE]',curr_ip).replace('[HOSTNAME_HERE]', curr_hostname)}\n")
+            f_out.write(f"{template.replace('[MACADDRESS_HERE]',curr_mac).replace('[IPADDRESS_HERE]',curr_ip).replace('[HOSTNAME_HERE]', curr_hostname.strip())}\n")
 
         f_out.close()
         print("Done!")
